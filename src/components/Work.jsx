@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import {SiJavascript} from 'react-icons/si'
+import {SiJavascript, SiReact, SiTailwindcss} from 'react-icons/si'
 import { BsArrowUpRight } from "react-icons/bs";
-import Img1 from '../assets/404.png'
+import Img1 from '../assets/HookBank.png'
 import Img2 from '../assets/Dado.png'
 import Img3 from '../assets/calculator.jpg'
 
@@ -42,12 +42,23 @@ const Work = () => {
               />
               {/* pretittle */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="text-gradient">Comming soon</span>
+                <span className="text-gradient">React</span>
               </div>
               {/* Title */}
-              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white">Comming soon</span>
+              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50 flex  items-center gap-x-5 " >
+                <span className="text-3xl text-white">HookBank</span>
+                
+                <SiReact/>
+                <SiTailwindcss/>
               </div>
+              {/* LINK */}
+              <div className="absolute -bottom-full left-12 group-hover:bottom-4 transition-all duration-700 z-50">
+                <a href="https://diegom30.github.io/HooBank/" 
+                target="_blank"
+                className="btn w-9 h-9  flex justify-center items-center">
+                        <BsArrowUpRight/>
+                      </a>
+                  </div>
             </div>
           </motion.div>
           <motion.div
