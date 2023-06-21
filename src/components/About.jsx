@@ -17,7 +17,7 @@ const About = () => {
         <div className="flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-20 lg:gap-y-0 h-screen  "> 
 
           <motion.div 
-          variants={fadeIn('right', 0.3)}
+          variants={fadeIn('right', 0.4)}
           initial='hidden'
           whileInView={'show'}
           viewport={{once: false, amou: 0.3}}
