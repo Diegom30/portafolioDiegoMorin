@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 import { InView, useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import CV from '../assets/CV-FRONTEND.pdf'
+import CV from '../assets/CV-frontend.pdf'
 import {HiOutlineDownload} from 'react-icons/hi'
 
 const About = () => {
